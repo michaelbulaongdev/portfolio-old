@@ -9,7 +9,7 @@ import {
   Typography
 } from "@mui/material";
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
-import listCert from "./listCert";
+import {listCert} from "./lists";
 
 const Certificates = () => {
   return (

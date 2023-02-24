@@ -10,7 +10,7 @@ import {
   Link,
   Typography
 } from "@mui/material";
-import listWorks from "./listWorks";
+import { listWorks } from "./lists";
 
 const Works = () => {
   return (
