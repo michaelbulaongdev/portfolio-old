@@ -38,17 +38,20 @@ const Contact = () => {
         </IconButton>
       </Box>
       <Button
+        sx={{mt: '1rem'}}
         variant='outlined'
+        size='small'
         target='_blank'
         href='https://drive.google.com/file/d/1zFDj8lKBFLbfv0EqyM1MpUS7fjSbkBOQ/view?usp=share_link'
       >download resume
       </Button>
       <Toolbar />
       <Link
+        sx={{fontSize: '0.8rem'}}
         target='_blank'
         href='https://github.com/michaelbulaongdev/portfolio'
         underline='hover'>
-        gh-repo: react + mui
+        react + mui | gh-repo: michaelbulaongdev/portfolio
       </Link>
     </Container>
   )

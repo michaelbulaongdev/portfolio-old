@@ -57,8 +57,7 @@ const Works = () => {
         ))}
       </Grid>
       <Typography variant='body2'>
-        For more samples, please visit my
-        <Link
+        For more samples, please visit my <Link
           color='primary.dark'
           target='_blank'
           href='https://github.com/michaelbulaongdev'
