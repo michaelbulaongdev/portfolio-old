@@ -1,8 +1,8 @@
 const listWorks = [
   {
-    image: 'https://i.imgur.com/73YDKHQ.png',
+    image: 'https://i.imgur.com/ERkGpWm.png',
     thumbnail: 'pokedex thumbnail',
-    title: 'Basic Pokedex',
+    title: 'Pokedex API',
     description: 'project on fetching and parsing API with React.js',
     link: 'https://michaelbulaongdev.github.io/project010-pokedex-project/'
   },
