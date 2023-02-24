@@ -57,7 +57,13 @@ const Works = () => {
         ))}
       </Grid>
       <Typography variant='body2'>
-        For more samples, please visit my <Link color='primary.dark' target='_blank' href='https://github.com/michaelbulaongdev'>GitHub account page</Link>.
+        For more samples, please visit my
+        <Link
+          color='primary.dark'
+          target='_blank'
+          href='https://github.com/michaelbulaongdev'
+        >GitHub account page
+        </Link>.
       </Typography>
     </Container>
   )
