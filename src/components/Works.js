@@ -18,9 +18,17 @@ const Works = () => {
       <Typography variant='h4'>
         Sample Works
       </Typography>
-      <Grid my={3} container spacing={2} sx={{alignItems: 'stretch'}}>
+      <Grid
+        my={3}
+        container
+        spacing={2}
+        sx={{
+          display: 'flex',
+          alignItems: 'stretch',
+          justifyContent: 'center'
+        }}>
         {listWorks.map((item) => (
-          <Grid key={item.link} item xs={12} md={4}>
+          <Grid key={item.link} item xs={8} sm={6} md={4}>
             <Card>
               <CardMedia
                 sx={{minHeight: 200}}
