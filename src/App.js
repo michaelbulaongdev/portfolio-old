@@ -10,27 +10,25 @@ import Certificates from './components/Certificates';
 import Contact from './components/Contact';
 
 const darkTheme = createTheme({
-  palette: {
-    mode: 'dark',
-  },
+	palette: {
+		mode: 'dark',
+	},
 });
 
-const App = () => {
-  return (
-    <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-      <DrawerAppBar />
-      <Home />
-      <Spacer />
-      <About />
-      <Spacer />
-      <Works />
-      <Spacer />
-      <Certificates />
-      <Spacer />
-      <Contact />
-    </ThemeProvider>
-  );
+export default function App() {
+	return (
+		<ThemeProvider theme={darkTheme}>
+			<CssBaseline />
+			<DrawerAppBar />
+			<Home />
+			<Spacer />
+			<About />
+			<Spacer />
+			<Works />
+			<Spacer />
+			<Certificates />
+			<Spacer />
+			<Contact />
+		</ThemeProvider>
+	);
 }
-
-export default App;
