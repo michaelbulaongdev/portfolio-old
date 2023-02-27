@@ -16,18 +16,20 @@ const darkTheme = createTheme({
 
 export default function App() {
 	return (
-		<ThemeProvider theme={darkTheme}>
-			<CssBaseline />
-			<DrawerAppBar />
-			<Home />
-			<Spacer />
-			<About />
-			<Spacer />
-			<Works />
-			<Spacer />
-			<Certificates />
-			<Spacer />
-			<Contact />
-		</ThemeProvider>
+		<div>
+			<ThemeProvider theme={darkTheme}>
+				<CssBaseline />
+				<DrawerAppBar />
+				<Home />
+				<Spacer />
+				<About />
+				<Spacer />
+				<Works />
+				<Spacer />
+				<Certificates />
+				<Spacer />
+				<Contact />
+			</ThemeProvider>
+		</div>
 	);
 }
