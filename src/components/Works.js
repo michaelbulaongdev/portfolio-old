@@ -28,7 +28,7 @@ export default function Works() {
 					}}>
 					{listWorks.map((item) => (
 						<Grid key={item.link} item xs={8} sm={6} md={4}>
-							<Card>
+							<Card sx={{maxWidth: 325}}>
 								<CardActionArea href={item.link} target='_blank'>
 									<CardMedia
 										sx={{minHeight: 200}}
