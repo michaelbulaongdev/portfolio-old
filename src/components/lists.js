@@ -1,7 +1,7 @@
 //list of sample works
 export const listWorks = [
 	{
-		image: 'https://i.imgur.com/ERkGpWm.png',
+		image: 'https://i.imgur.com/gKTQ4od.png',
 		thumbnail: 'pokedex thumbnail',
 		title: 'Pokedex API',
 		description: 'project on fetching and parsing API with React.js',
