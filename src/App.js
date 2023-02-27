@@ -1,6 +1,5 @@
 import {ThemeProvider, createTheme} from '@mui/material/styles';
 import {CssBaseline} from '@mui/material';
-import Spacer from './components/Spacer';
 import DrawerAppBar from './components/DrawerAppBar';
 import Home from './components/Home';
 import About from './components/About';
@@ -21,13 +20,9 @@ export default function App() {
 				<CssBaseline />
 				<DrawerAppBar />
 				<Home />
-				<Spacer />
 				<About />
-				<Spacer />
 				<Works />
-				<Spacer />
 				<Certificates />
-				<Spacer />
 				<Contact />
 			</ThemeProvider>
 		</div>

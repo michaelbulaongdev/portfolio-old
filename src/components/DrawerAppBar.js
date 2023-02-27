@@ -14,14 +14,14 @@ import {
 	Typography,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import HideOnScroll from './HideOnScroll';
+// import HideOnScroll from './HideOnScroll';
 
 export default function DrawerAppBar(props) {
 	const {window} = props;
 	const [mobileOpen, setMobileOpen] = useState(false);
 
 	const drawerWidth = 240;
-	const navItems = ['Home', 'About', 'Contact'];
+	const navItems = ['Home', 'About', 'Works', 'Certificates', 'Contact'];
 
 	const handleDrawerToggle = () => {
 		setMobileOpen((prevState) => !prevState);
@@ -50,33 +50,33 @@ export default function DrawerAppBar(props) {
 
 	return (
 		<Box sx={{display: 'flex'}}>
-			<HideOnScroll>
-				<AppBar component='nav'>
-					<Toolbar>
-						<IconButton
-							color='inherit'
-							aria-label='open drawer'
-							edge='start'
-							onClick={handleDrawerToggle}
-							sx={{mr: 2, display: {sm: 'none'}}}>
-							<MenuIcon />
-						</IconButton>
-						<Typography
-							variant='h6'
-							component='div'
-							sx={{flexGrow: 1, display: {xs: 'none', sm: 'block'}}}>
-							Michael Bulaong
-						</Typography>
-						<Box sx={{display: {xs: 'none', sm: 'block'}}}>
-							{navItems.map((item) => (
-								<Button href={`#${item}`} key={item} sx={{color: '#fff'}}>
-									{item}
-								</Button>
-							))}
-						</Box>
-					</Toolbar>
-				</AppBar>
-			</HideOnScroll>
+			{/* <HideOnScroll> */}
+			<AppBar component='nav'>
+				<Toolbar>
+					<IconButton
+						color='inherit'
+						aria-label='open drawer'
+						edge='start'
+						onClick={handleDrawerToggle}
+						sx={{mr: 2, display: {sm: 'none'}}}>
+						<MenuIcon />
+					</IconButton>
+					<Typography
+						variant='h6'
+						component='div'
+						sx={{flexGrow: 1, display: {xs: 'none', sm: 'block'}}}>
+						Michael Bulaong
+					</Typography>
+					<Box sx={{display: {xs: 'none', sm: 'block'}}}>
+						{navItems.map((item) => (
+							<Button href={`#${item}`} key={item} sx={{color: '#fff'}}>
+								{item}
+							</Button>
+						))}
+					</Box>
+				</Toolbar>
+			</AppBar>
+			{/* </HideOnScroll> */}
 			<Box component='nav'>
 				<Drawer
 					container={container}
