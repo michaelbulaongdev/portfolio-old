@@ -18,16 +18,16 @@ export default function Works() {
 			<Container maxWidth='md' align='center'>
 				<Typography variant='h4'>Sample Works</Typography>
 				<Grid
-					my={3}
 					container
-					spacing={2}
+					my={3}
+					spacing={3}
 					sx={{
 						display: 'flex',
 						alignItems: 'stretch',
 						justifyContent: 'center',
 					}}>
 					{listWorks.map((item) => (
-						<Grid key={item.link} item xs={8} sm={6} md={4}>
+						<Grid item key={item.link} xs={8} sm={6} md={4}>
 							<Card sx={{maxWidth: 325}}>
 								<CardActionArea href={item.link} target='_blank'>
 									<CardMedia
@@ -39,7 +39,7 @@ export default function Works() {
 										<Typography variant='h6' component='div'>
 											{item.title}
 										</Typography>
-										<Typography variant='subtitle2' color='text.secondary'>
+										<Typography variant='body2' color='text.secondary'>
 											{item.description}
 										</Typography>
 									</CardContent>
