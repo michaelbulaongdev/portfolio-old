@@ -1,10 +1,11 @@
 //list of sample works
 export const listWorks = [
 	{
-		image: 'https://i.imgur.com/dGdPjnH.png',
+		image: 'https://i.imgur.com/MHN25OC.png',
 		thumbnail: 'pokedex thumbnail',
 		title: 'Pokedex API',
-		description: 'project on fetching and parsing API with React.js',
+		description:
+			'project on fetching from API using Axios/React.js/Material-UI',
 		link: 'https://michaelbulaongdev.github.io/project010-pokedex-project/',
 	},
 	{
