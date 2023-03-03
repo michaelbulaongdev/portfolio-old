@@ -15,9 +15,16 @@ export const listWorks = [
 		link: 'https://michaelbulaongdev.github.io/Project003-simon-game/',
 	},
 	{
+		image: 'https://i.imgur.com/85c0MQP.png',
+		thumbnail: 'interactive rating thumbnail',
+		title: 'Interactive Rating',
+		description: 'frontend mentor challenge, HTML/CSS/JS/React/MUI',
+		link: 'https://michaelbulaongdev.github.io/fm007-interactive-rating-component/',
+	},
+	{
 		image: 'https://i.imgur.com/RwWm3D5.png',
 		thumbnail: 'stats preview thumbnail',
-		title: 'Stats Preview Card',
+		title: 'Stats Preview',
 		description: 'frontend mentor challenge, HTML/CSS',
 		link: 'https://michaelbulaongdev.github.io/FM005-stats-preview-card/',
 	},
