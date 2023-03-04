@@ -4,8 +4,7 @@ export const listWorks = [
 		image: 'https://i.imgur.com/MHN25OC.png',
 		thumbnail: 'pokedex thumbnail',
 		title: 'Pokedex API',
-		description:
-			'project on fetching from API using Axios/React.js/Material-UI',
+		description: 'sample project using React.js/Material-UI/Axios',
 		link: 'https://michaelbulaongdev.github.io/project010-pokedex-project/',
 	},
 	{
