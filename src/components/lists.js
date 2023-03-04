@@ -4,8 +4,15 @@ export const listWorks = [
 		image: 'https://i.imgur.com/MHN25OC.png',
 		thumbnail: 'pokedex thumbnail',
 		title: 'Pokedex API',
-		description: 'sample project using React.js/Material-UI/Axios',
+		description: 'sample project using ReactJS/Material-UI/Axios',
 		link: 'https://michaelbulaongdev.github.io/project010-pokedex-project/',
+	},
+	{
+		image: 'https://i.imgur.com/G7VyeXC.png',
+		thumbnail: 'advice generator thumbnail',
+		title: 'Advice Generator',
+		description: 'frontend mentor challenge, HTML/CSS/ReactJS/FetchAPI',
+		link: 'https://michaelbulaongdev.github.io/fm008-advice-generator/',
 	},
 	{
 		image: 'https://i.imgur.com/qwxnw3a.png',
@@ -13,13 +20,6 @@ export const listWorks = [
 		title: 'Simon Game',
 		description: 'game logic, audio media, and event listeners - HTML/CSS/JS',
 		link: 'https://michaelbulaongdev.github.io/Project003-simon-game/',
-	},
-	{
-		image: 'https://i.imgur.com/G7VyeXC.png',
-		thumbnail: 'advice generator thumbnail',
-		title: 'Advice Generator',
-		description: 'frontend mentor challenge, HTML/CSS/JS/React',
-		link: 'https://michaelbulaongdev.github.io/fm008-advice-generator/',
 	},
 	{
 		image: 'https://i.imgur.com/85c0MQP.png',
