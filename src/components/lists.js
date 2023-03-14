@@ -71,14 +71,14 @@ export const listCert = [
 		link: 'https://www.coursera.org/account/accomplishments/certificate/KSTB3NHYL7Z7',
 	},
 	{
-		title: 'JavaScript Loops and Conditionals by LinkedIn Learning',
-		image: 'https://i.imgur.com/4CYBZ6W.png',
-		link: 'https://www.linkedin.com/learning/certificates/7cfb8768f26a2ee45bcfbadb4d84b5f9e2764661824a500b75a98a418f9a2435',
-	},
-	{
 		title: 'React Basics by Meta (Coursera)',
 		image: 'https://i.imgur.com/NFWxSkp.png',
 		link: 'https://www.coursera.org/account/accomplishments/certificate/YVRFURJ6LV29',
+	},
+	{
+		title: 'JavaScript Loops and Conditionals by LinkedIn Learning',
+		image: 'https://i.imgur.com/4CYBZ6W.png',
+		link: 'https://www.linkedin.com/learning/certificates/7cfb8768f26a2ee45bcfbadb4d84b5f9e2764661824a500b75a98a418f9a2435',
 	},
 	{
 		title: 'React.js Code Challenges by LinkedIn Learning',
