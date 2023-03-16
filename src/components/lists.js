@@ -3,7 +3,7 @@ export const listWorks = [
 	{
 		image: 'https://i.imgur.com/MHN25OC.png',
 		thumbnail: 'pokedex thumbnail',
-		title: 'Pokedex API',
+		title: 'Pokedex Project',
 		description: 'sample project using ReactJS/Material-UI/Axios',
 		link: 'https://michaelbulaongdev.github.io/project010-pokedex-project/',
 	},
@@ -27,6 +27,13 @@ export const listWorks = [
 		title: 'Interactive Rating',
 		description: 'frontend mentor challenge, HTML/CSS/JS/React/MUI',
 		link: 'https://michaelbulaongdev.github.io/fm007-interactive-rating-component/',
+	},
+	{
+		image: 'https://i.imgur.com/6nFd042.png',
+		thumbnail: 'ip address tracker thumbnail',
+		title: 'IP Address Tracker',
+		description: 'sample project with 3rd-party API using React and Axios',
+		link: 'https://michaelbulaongdev.github.io/fm009-ip-address-tracker/',
 	},
 	{
 		image: 'https://i.imgur.com/RwWm3D5.png',
