@@ -6,7 +6,6 @@ import {
 	Container,
 	List,
 	ListItem,
-	ListItemButton,
 	ListItemIcon,
 	ListItemText,
 	Typography,
@@ -24,22 +23,26 @@ export default function Certificates() {
 				<Typography variant='h4'>Certificates</Typography>
 				<List>
 					{listCert.map((item) => (
-						<Accordion>
+						<Accordion disableGutters='true'>
 							<AccordionSummary
 								expandIcon={<ExpandMoreIcon />}
 								aria-controls='panel1a-content'
 								id='panel1a-header'>
 								<ListItem key={item.link} disablePadding>
-									<ListItemButton target='_blank' href={item.link}>
-										<ListItemIcon>
-											<WorkspacePremiumIcon color='success' size='large' />
-										</ListItemIcon>
-										<ListItemText secondary={item.title} />
-									</ListItemButton>
+									<ListItemIcon>
+										<WorkspacePremiumIcon color='success' size='large' />
+									</ListItemIcon>
+									<ListItemText secondary={item.title} />
 								</ListItem>
 							</AccordionSummary>
 							<AccordionDetails>
-								<CardMedia sx={{minHeight: 400}} image={item.image} />
+								<a
+									className='cert-image'
+									target='_blank'
+									rel='noreferrer'
+									href={item.link}>
+									<CardMedia sx={{minHeight: 350}} image={item.image} />
+								</a>
 							</AccordionDetails>
 						</Accordion>
 					))}
