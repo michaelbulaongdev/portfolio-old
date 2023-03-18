@@ -30,7 +30,7 @@ export default function Certificates() {
 								id='panel1a-header'>
 								<ListItem key={item.link} disablePadding>
 									<ListItemIcon>
-										<WorkspacePremiumIcon color='warning' size='large' />
+										<WorkspacePremiumIcon color='success' size='large' />
 									</ListItemIcon>
 									<ListItemText secondary={item.title} />
 								</ListItem>
