@@ -14,7 +14,6 @@ import {
 	Typography,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-// import HideOnScroll from './HideOnScroll';
 
 export default function DrawerAppBar(props) {
 	const {window} = props;
@@ -50,7 +49,6 @@ export default function DrawerAppBar(props) {
 
 	return (
 		<Box sx={{display: 'flex'}}>
-			{/* <HideOnScroll> */}
 			<AppBar component='nav'>
 				<Toolbar>
 					<IconButton
@@ -76,7 +74,6 @@ export default function DrawerAppBar(props) {
 					</Box>
 				</Toolbar>
 			</AppBar>
-			{/* </HideOnScroll> */}
 			<Box component='nav'>
 				<Drawer
 					container={container}
