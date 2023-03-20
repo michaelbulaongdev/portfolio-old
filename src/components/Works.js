@@ -24,12 +24,11 @@ export default function Works() {
 					spacing={3}
 					sx={{
 						display: 'flex',
-						alignItems: 'stretch',
 						justifyContent: 'center',
 					}}>
 					{listWorks.map((item) => (
 						<Grid item key={item.link} xs={8} sm={6} md={4}>
-							<Card sx={{maxWidth: 325, borderRadius: '10px'}}>
+							<Card sx={{maxWidth: 250, minHeight: 300, borderRadius: '10px'}}>
 								<CardActionArea href={item.link} target='_blank'>
 									<CardMedia
 										sx={{minHeight: 200}}
