@@ -4,7 +4,7 @@ export default function Home() {
 	return (
 		<Container id='Home' maxWidth='md' align='center'>
 			<Toolbar />
-			<Grid container my={5}>
+			<Grid container my={3}>
 				<Grid
 					item
 					xs={12}
@@ -14,7 +14,7 @@ export default function Home() {
 						alignContent: 'center',
 						flexDirection: 'column',
 					}}>
-					<Typography variant='h7' pt={7}>
+					<Typography variant='h6' pt={7}>
 						Hi, my name is
 					</Typography>
 					<Typography variant='h1' pb={7} sx={{fontFamily: 'Permanent Marker'}}>
@@ -43,11 +43,11 @@ export default function Home() {
 					display: 'flex',
 					flexDirection: 'column',
 				}}>
-				<Typography variant='h6' align='center'>
-					web developer
-				</Typography>
-				<Typography variant='h6' align='center'>
+				<Typography variant='h5' align='center'>
 					music technologist
+				</Typography>
+				<Typography variant='h5' align='center'>
+					web developer
 				</Typography>
 			</Box>
 		</Container>

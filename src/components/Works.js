@@ -16,7 +16,7 @@ export default function Works() {
 		<div>
 			<Spacer id='Works' />
 			<Container maxWidth='md' align='center'>
-				<Typography variant='h4'>Sample Works</Typography>
+				<Typography variant='h3'>Sample Works</Typography>
 				<Grid
 					container
 					mt={0}
@@ -29,7 +29,7 @@ export default function Works() {
 					}}>
 					{listWorks.map((item) => (
 						<Grid item key={item.link} xs={8} sm={6} md={4}>
-							<Card sx={{maxWidth: 325}}>
+							<Card sx={{maxWidth: 325, borderRadius: '10px'}}>
 								<CardActionArea href={item.link} target='_blank'>
 									<CardMedia
 										sx={{minHeight: 200}}

@@ -20,7 +20,7 @@ export default function Certificates() {
 		<div>
 			<Spacer id='Certificates' />
 			<Container maxWidth='sm' align='center'>
-				<Typography variant='h4'>Certificates</Typography>
+				<Typography variant='h3'>Certificates</Typography>
 				<List>
 					{listCert.map((item) => (
 						<Accordion disableGutters='true'>
