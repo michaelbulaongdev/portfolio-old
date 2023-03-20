@@ -16,7 +16,7 @@ export default function Works() {
 		<div>
 			<Spacer id='Works' />
 			<Container maxWidth='md' align='center'>
-				<Typography variant='h3'>Sample Works</Typography>
+				<Typography variant='h3'>My Works</Typography>
 				<Grid
 					container
 					mt={0}

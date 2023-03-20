@@ -14,6 +14,7 @@ import {
 	Typography,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import {Link} from 'react-scroll';
 
 export default function DrawerAppBar(props) {
 	const {window} = props;
@@ -35,11 +36,11 @@ export default function DrawerAppBar(props) {
 			<List>
 				{navItems.map((item) => (
 					<ListItem key={item} disablePadding>
-						<ListItemButton
-							href={`#${item}`}
-							sx={{textAlign: 'left', marginLeft: '10px'}}>
-							<ListItemText primary={item} />
-						</ListItemButton>
+						<Link to={item} smooth={true} duration={500}>
+							<ListItemButton sx={{textAlign: 'left', marginLeft: '10px'}}>
+								<ListItemText primary={item} />
+							</ListItemButton>
+						</Link>
 					</ListItem>
 				))}
 			</List>
@@ -69,9 +70,11 @@ export default function DrawerAppBar(props) {
 					</Typography>
 					<Box sx={{display: {xs: 'none', sm: 'block'}}}>
 						{navItems.map((item) => (
-							<Button href={`#${item}`} key={item} sx={{color: '#fff'}}>
-								{item}
-							</Button>
+							<Link to={item} smooth={true} duration={500}>
+								<Button key={item} sx={{color: '#fff'}}>
+									{item}
+								</Button>
+							</Link>
 						))}
 					</Box>
 				</Toolbar>
