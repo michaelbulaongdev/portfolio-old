@@ -19,7 +19,8 @@ export default function Works() {
 				<Typography variant='h4'>Sample Works</Typography>
 				<Grid
 					container
-					my={3}
+					mt={0}
+					mb={3}
 					spacing={3}
 					sx={{
 						display: 'flex',
