@@ -44,7 +44,7 @@ export default function Home() {
 					flexDirection: 'column',
 				}}>
 				<Typography variant='h6' align='center'>
-					frontend web developer
+					web developer
 				</Typography>
 				<Typography variant='h6' align='center'>
 					music technologist
