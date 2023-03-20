@@ -19,7 +19,7 @@ export default function DrawerAppBar(props) {
 	const {window} = props;
 	const [mobileOpen, setMobileOpen] = useState(false);
 
-	const drawerWidth = 240;
+	const drawerWidth = 200;
 	const navItems = ['Home', 'About', 'Works', 'Certificates', 'Contact'];
 
 	const handleDrawerToggle = () => {
@@ -35,7 +35,9 @@ export default function DrawerAppBar(props) {
 			<List>
 				{navItems.map((item) => (
 					<ListItem key={item} disablePadding>
-						<ListItemButton href={`#${item}`} sx={{textAlign: 'center'}}>
+						<ListItemButton
+							href={`#${item}`}
+							sx={{textAlign: 'left', marginLeft: '10px'}}>
 							<ListItemText primary={item} />
 						</ListItemButton>
 					</ListItem>
