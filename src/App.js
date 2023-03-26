@@ -7,13 +7,17 @@ import Contact from "./components/Contact";
 
 export default function App() {
   return (
-    <main>
-      <DrawerAppBar />
-      <Home />
-      <About />
-      <Works />
-      <Certificates />
-      <Contact />
-    </main>
+    <>
+      <header>
+        <DrawerAppBar />
+      </header>
+      <main>
+        <Home />
+        <About />
+        <Works />
+        <Certificates />
+        <Contact />
+      </main>
+    </>
   );
 }
