@@ -4,7 +4,7 @@ export const listWorks = [
 		image: 'https://i.imgur.com/TUQ6zWZ.png',
 		thumbnail: 'frontend page thumbnail',
 		title: 'Frontend Page',
-		description: 'sample frontend design using ReactJS/Material-UI',
+		description: 'sample frontend coding using ReactJS/Material-UI',
 		link: 'https://michaelbulaongdev.github.io/frontend-design-exercise-20230323/',
 	},
 	{
