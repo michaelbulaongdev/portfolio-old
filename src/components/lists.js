@@ -1,18 +1,18 @@
 //list of sample works
 export const listWorks = [
 	{
-		image: 'https://i.imgur.com/MHN25OC.png',
-		thumbnail: 'pokedex thumbnail',
-		title: 'Pokedex Project',
-		description: 'sample project using ReactJS/Material-UI/Axios',
-		link: 'https://michaelbulaongdev.github.io/project010-pokedex-project/',
-	},
-	{
 		image: 'https://i.imgur.com/TUQ6zWZ.png',
 		thumbnail: 'frontend page thumbnail',
 		title: 'Frontend Page',
 		description: 'sample frontend design using ReactJS/Material-UI',
 		link: 'https://michaelbulaongdev.github.io/frontend-design-exercise-20230323/',
+	},
+	{
+		image: 'https://i.imgur.com/MHN25OC.png',
+		thumbnail: 'pokedex thumbnail',
+		title: 'Pokedex Project',
+		description: 'sample project using ReactJS/Material-UI/Axios',
+		link: 'https://michaelbulaongdev.github.io/project010-pokedex-project/',
 	},
 	{
 		image: 'https://i.imgur.com/G7VyeXC.png',
