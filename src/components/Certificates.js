@@ -1,3 +1,4 @@
+import {useState} from 'react';
 import {
 	Accordion,
 	AccordionSummary,
@@ -16,6 +17,12 @@ import {listCert} from './lists';
 import Spacer from './Spacer';
 
 export default function Certificates() {
+	const [expanded, setExpanded] = useState('');
+
+	const handleChange = (panel) => (event, newExpanded) => {
+		setExpanded(newExpanded ? panel : false);
+	};
+
 	return (
 		<section>
 			<Spacer id='Certificates' />
@@ -23,12 +30,13 @@ export default function Certificates() {
 				<Typography variant='h3'>My Certificates</Typography>
 				<List>
 					{listCert.map((item) => (
-						<Accordion disableGutters='true'>
-							<AccordionSummary
-								expandIcon={<ExpandMoreIcon />}
-								aria-controls='panel1a-content'
-								id='panel1a-header'>
-								<ListItem key={item.link} disablePadding>
+						<Accordion
+							key={item.link}
+							expanded={expanded === item.link}
+							onChange={handleChange(item.link)}
+							disableGutters={true}>
+							<AccordionSummary expandIcon={<ExpandMoreIcon />}>
+								<ListItem disablePadding>
 									<ListItemIcon>
 										<WorkspacePremiumIcon color='success' size='large' />
 									</ListItemIcon>

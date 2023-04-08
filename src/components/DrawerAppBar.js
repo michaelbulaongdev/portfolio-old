@@ -73,10 +73,8 @@ export default function DrawerAppBar(props) {
 						</Typography>
 						<Box sx={{display: {xs: 'none', sm: 'block'}}}>
 							{navItems.map((item) => (
-								<Link to={item} smooth={true} duration={500}>
-									<Button key={item} sx={{color: '#fff'}}>
-										{item}
-									</Button>
+								<Link key={item} to={item} smooth={true} duration={500}>
+									<Button sx={{color: '#fff'}}>{item}</Button>
 								</Link>
 							))}
 						</Box>
