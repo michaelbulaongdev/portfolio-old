@@ -1,6 +1,13 @@
 //list of sample works
 export const listWorks = [
 	{
+		image: 'https://i.imgur.com/Ur2STUv.png',
+		thumbnail: 'rock paper scissors thumbnail',
+		title: 'Rock Paper Scissors',
+		description: 'web game dev using ReactJS/Material-UI',
+		link: 'https://michaelbulaongdev.github.io/fm011-rock-paper-scissors',
+	},
+	{
 		image: 'https://i.imgur.com/TUQ6zWZ.png',
 		thumbnail: 'frontend page thumbnail',
 		title: 'Frontend Page',
