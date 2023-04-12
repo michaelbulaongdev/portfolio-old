@@ -5,8 +5,8 @@ export default function Home() {
 	return (
 		<section>
 			<Container id='Home' maxWidth='md' align='center'>
-				<Toolbar />
-				<Grid container my={3}>
+				<Toolbar sx={{display: {xs: 'none', sm: 'none', md: 'block'}}} />
+				<Grid container my={5}>
 					<Grid
 						item
 						xs={12}
@@ -16,7 +16,7 @@ export default function Home() {
 							alignContent: 'center',
 							flexDirection: 'column',
 						}}>
-						<Typography variant='h6' pt={7}>
+						<Typography variant='h6' pt={9}>
 							Hi, my name is
 						</Typography>
 						<Typography
@@ -29,11 +29,11 @@ export default function Home() {
 					<Grid item xs={12} md={6}>
 						<Box
 							component='img'
-							alt="Mike's profile picture"
 							// src='https://i.imgur.com/z33vWH4.jpeg' //replaced with local import
 							src={MBProfilePic}
+							alt="Mike's profile picture"
+							width={250}
 							sx={{
-								width: 250,
 								borderRadius: '50%',
 							}}
 						/>

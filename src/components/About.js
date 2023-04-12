@@ -18,9 +18,7 @@ export default function About() {
 						a student of this enormous university called 'life'.
 					</Typography>
 				</Box>
-				<Box p={5}>
-					<img src={MBLogo} alt='MB Logo' width='200' />
-				</Box>
+				<Box component='img' src={MBLogo} alt='MB logo' width={250} p={5} />
 			</Container>
 		</section>
 	);
