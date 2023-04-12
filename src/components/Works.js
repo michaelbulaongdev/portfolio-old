@@ -27,11 +27,14 @@ export default function Works() {
 						justifyContent: 'center',
 					}}>
 					{listWorks.map((item) => (
-						<Grid item key={item.link} xs={8} sm={6} md={4}>
-							<Card sx={{maxWidth: 250, minHeight: 300, borderRadius: '10px'}}>
-								<CardActionArea href={item.link} target='_blank'>
+						<Grid item key={item.link} xs={12} sm={6} md={4}>
+							<Card sx={{maxWidth: 270, borderRadius: 3}}>
+								<CardActionArea
+									href={item.link}
+									target='_blank'
+									sx={{minHeight: 310}}>
 									<CardMedia
-										sx={{minHeight: 200}}
+										sx={{minHeight: 210}}
 										image={item.image}
 										title={item.thumbnail}
 									/>
