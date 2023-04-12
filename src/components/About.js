@@ -1,5 +1,6 @@
 import {Box, Container, Typography} from '@mui/material';
 import Spacer from './Spacer';
+import MBLogo from '../images/MBM_icon_W.png';
 
 export default function About() {
 	return (
@@ -16,6 +17,9 @@ export default function About() {
 						them. For me, learning is a never ending quest so I consider myself
 						a student of this enormous university called 'life'.
 					</Typography>
+				</Box>
+				<Box p={5}>
+					<img src={MBLogo} alt='MB Logo' width='200' />
 				</Box>
 			</Container>
 		</section>
