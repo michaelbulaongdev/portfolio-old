@@ -20,14 +20,14 @@ export default function Works() {
 				<Grid
 					container
 					mt={0}
-					mb={3}
-					spacing={3}
+					mb={5}
+					spacing={5}
 					sx={{
 						display: 'flex',
 						justifyContent: 'center',
 					}}>
 					{listWorks.map((item) => (
-						<Grid item key={item.link} xs={10} sm={6} md={4}>
+						<Grid item key={item.link} xs={10} sm={6} md={4} lg={3}>
 							<Card sx={{maxWidth: 270, borderRadius: 3}}>
 								<CardActionArea
 									href={item.link}
