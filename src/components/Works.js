@@ -27,7 +27,7 @@ export default function Works() {
 						justifyContent: 'center',
 					}}>
 					{listWorks.map((item) => (
-						<Grid item key={item.link} xs={12} sm={6} md={4}>
+						<Grid item key={item.link} xs={10} sm={6} md={4}>
 							<Card sx={{maxWidth: 270, borderRadius: 3}}>
 								<CardActionArea
 									href={item.link}
